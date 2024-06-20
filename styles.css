@@ -1,4 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap");
+@font-face {
+  font-family: "Figtree";
+  font-weight: 600;
+  src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Figtree";
+  font-weight: 800;
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
+}
 
 * {
   margin: 0;
@@ -22,6 +32,7 @@ html {
 
 body {
   font-family: "Figtree", sans-serif;
+  font-weight: 600;
   line-height: 1.5;
   width: 100vw;
   min-height: 100vh;
@@ -70,7 +81,7 @@ body {
 
 .date {
   font-size: var(--text-small);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .title {
