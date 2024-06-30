@@ -1,13 +1,17 @@
 @font-face {
   font-family: "Figtree";
   font-weight: 600;
-  src: url("./assets/fonts/static/Figtree-SemiBold.ttf") format("ttf");
+  src: url("./assets/fonts/Figtree-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Figtree-SemiBold.woff") format("woff"),
+    url("./assets/fonts/Figtree-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Figtree";
   font-weight: 800;
-  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("ttf");
+  src: url("./assets/fonts/Figtree-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/Figtree-ExtraBold.woff") format("woff"),
+    url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
 }
 
 * {
@@ -81,7 +85,6 @@ body {
 
 .date {
   font-size: var(--text-small);
-  font-weight: 600;
 }
 
 .title {
